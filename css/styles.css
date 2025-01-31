@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(20, 20, 20);
+    font-family: interbold;
+}
+.all{
+    width: 25%;
+    
+    margin: auto;
+    background-color: rgb(31, 31, 31);
+    margin-top: 5%;
+    border-radius: 10px;
+
+}
+.sous{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.img img{
+    border-radius: 50%;
+    width: 40%;
+    margin: auto;
+}
+.b1 p{
+    padding: 10px;
+    margin: 10px;
+}
+.b1 p:hover{
+    color: black !important;
+
+}
+.b1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.b1{
+    border-radius: 10px;
+    background-color: rgb(51, 51, 51);
+    
+}
+.b1:hover {
+    background-color: rgb(197, 248, 42);
+
+}
+.b1:hover a{
+color: black;
+}
+.adresse{
+    color: rgb(197, 248, 42);
+}
+@font-face {
+    font-family: "interbold";
+    src: local("interbold"), local("interbold"),
+      url("../font/Inter-Bold.ttf");
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "interregular";
+    src: local("interregular"), local("interregular"),
+      url("../font/Inter-Regular.ttf");
+    font-weight: bold;
+  }
+  .job{
+    font-size: 12px;
+    padding: 5px;
+    font-family: interregular;
+
+  }
+  @media all and (max-device-width: 480px)
+ {
+    .all{
+        width: 90%;
+        
+        margin: auto;
+        background-color: rgb(31, 31, 31);
+        margin-top: 30%;
+        border-radius: 10px;
+        
+    }
+    .b1{
+        border-radius: 20px;
+        background-color: rgb(51, 51, 51);
+        
+    }
+    .b1 a{
+        color: white;
+        text-decoration: none;
+        font-size: 50px;
+    }
+    .b1 p{
+        padding: 30px;
+        margin: 30px;
+    }
+    .job{
+        font-size: 25px;
+        padding: 5px;
+        
+      }
+      .name{
+        font-size: 40px;
+      }
+      .adresse{
+        font-size: 30px;
+        }
+}
